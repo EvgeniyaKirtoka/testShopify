@@ -1,0 +1,37 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+//    "paths": {
+//      "@components/*": ["src/@components/*"],
+//      "@layouts/*": ["src/@layouts/*"],
+//      "@schemas/*": ["src/@schemas/*"],
+//      "@templates/*": ["src/@templates/*"],
+//      "@theme/*": ["src/@theme/*"],
+//      "@type/*": ["src/@types/*"],
+//      "@styles/*": ["src/@styles/*"],
+//      "@apollo/*": ["src/@apollo/*"]
+//    },
+    "target": "es6",
+    "lib": ["dom", "dom.iterable", "esnext", "es2018", "esnext.asynciterable"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": false,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true
+  },
+  "exclude": ["node_modules", ".next"],
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "pages/_app.jsx",
+  ]
+}
